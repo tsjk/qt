@@ -47,7 +47,7 @@ DEPEND="
 	cpuload? ( sys-libs/libstatgrab )
 	networkmonitor? ( sys-libs/libstatgrab )
 	sensors? ( sys-apps/lm_sensors )
-	sysstat? ( =lxqt-base/libsysstat-0.3* )
+	sysstat? ( =lxqt-base/libsysstat-9999 )
 	volume? ( alsa? ( media-libs/alsa-lib )
 		pulseaudio? ( media-sound/pulseaudio ) )"
 RDEPEND="${DEPEND}
